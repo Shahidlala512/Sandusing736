@@ -3,8 +3,9 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+    background: url('https://hamsterkombatgame.io/images/loading/bg_hmstr.webpp') no-repeat center center fixed; /* Add your gaming image URL */
+    background-size: cover;
+    color: #fff; /* Change text color to white for contrast */
     line-height: 1.6;
 }
 
@@ -13,15 +14,15 @@ body {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #fff;
+    background-color: rgba(0, 0, 0, 0.7); /* Add semi-transparent background */
     border-radius: 10px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
     transition: background-color 0.3s, color 0.3s;
 }
 
 /* Headings */
 h1, h3 {
-    color: #333;
+    color: #fff; /* Ensure headings are white */
     text-align: center;
     margin-bottom: 20px;
 }
@@ -34,6 +35,7 @@ h1, h3 {
 label {
     font-size: 16px;
     font-weight: bold;
+    color: #fff; /* Change label text to white */
     display: block;
     margin-bottom: 5px;
 }
@@ -44,11 +46,13 @@ select {
     font-size: 14px;
     border-radius: 5px;
     border: 1px solid #ccc;
+    background-color: #333; /* Dark background for dropdown */
+    color: #fff;
 }
 
 /* Buttons */
 button {
-    background-color: #007bff;
+    background-color: #ff5733; /* Gaming-themed button color */
     color: white;
     border: none;
     padding: 12px 20px;
@@ -61,7 +65,7 @@ button {
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #ff2d00;
 }
 
 #telegramChannelBtn, #creatorChannelBtn {
@@ -93,7 +97,7 @@ button:hover {
 #progressText {
     text-align: center;
     font-weight: bold;
-    color: #007bff;
+    color: #fff;
 }
 
 /* Key Container */
@@ -110,6 +114,8 @@ button:hover {
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-right: 10px;
+    background-color: #333; /* Dark background for input */
+    color: #fff;
 }
 
 .copyKeyBtn {
@@ -131,7 +137,7 @@ button:hover {
     margin-top: 30px;
     font-size: 14px;
     text-align: center;
-    color: #777;
+    color: #ccc;
 }
 
 .footer a {
@@ -188,8 +194,7 @@ button:hover {
     }
 
     .container {
-        background-color: #242424;
-        box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+        background-color: rgba(36, 36, 36, 0.9);
     }
 
     button {
